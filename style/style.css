@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: purple;
+}
+.stopwatch {
+    background: rgb(158, 76, 158);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 350px;
+}
+.time {
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 50px;
+    box-shadow: 2px 3px 20px;
+    padding: 15px;
+}
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(99, 0, 99);
+}
+button:hover{
+    color:rgb(99, 0, 99) ;
+    background-color: white;
+    padding: 8px;
+}
+.laps {
+    margin-top: 10px;
+    text-align: left;
+}
